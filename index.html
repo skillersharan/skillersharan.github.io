@@ -17,23 +17,24 @@
     h6 {
         font-family: "Roboto", sans-serif
     }
+
     .reframe {
-  height: 300px;
-  width: 200px;
-  overflow: hidden;
-  margin-right: 10px;
-}
+        height: 300px;
+        width: 200px;
+        overflow: hidden;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
 
-.hover-scale{
-    -webkit-transition: 0.6s ease;
- transition: 0.6s ease;
- cursor: pointer;
-}
+    .hover-scale {
+        -webkit-transition: 0.6s ease;
+        transition: 0.6s ease;
+        cursor: pointer;
+    }
 
-.hover-scale:hover{
-    transform: scale(1.05);
-}
-
+    .hover-scale:hover {
+        transform: scale(1.05);
+    }
 </style>
 
 <body class="w3-light-grey">
@@ -49,7 +50,8 @@
 
                 <div class="w3-white w3-text-grey w3-card-4">
                     <div class="w3-display-container">
-                        <img src="https://github.com/skillersharan/skillersharan.github.io/raw/master/images/profile_pic.JPG" style="width:100%" alt="Avatar">
+                        <img src="https://github.com/skillersharan/skillersharan.github.io/raw/master/images/profile_pic.JPG"
+                            style="width:100%" alt="Avatar">
                         <div class="w3-display-bottomleft w3-container w3-text-white">
                             <h2>
                                 <b>Sharan S</b>
@@ -58,9 +60,12 @@
                     </div>
                     <div class="w3-container">
                         <p>
-                            <i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Full Stack Developer</p>
+                            <i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Full Stack
+                            Developer
+                        </p>
                         <p>
-                            <i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Bangalore, India</p>
+                            <i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Bangalore, India
+                        </p>
                         <p>
                             <i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>
                             <a href="mailto:skiller.sharan@gmail.com">skiller.sharan@gmail.com</a>
@@ -70,9 +75,9 @@
                             <a href="tel:+919611763140">+919611763140</a>
                         </p>
                         <p>
-                                <i class="fa fa-linkedin fa-fw w3-margin-right w3-large w3-text-teal"></i>
-                                <a href="https://www.linkedin.com/in/skillersharan/">Connect on LinkedIn</a>
-                            </p>
+                            <i class="fa fa-linkedin fa-fw w3-margin-right w3-large w3-text-teal"></i>
+                            <a href="https://www.linkedin.com/in/skillersharan/">Connect on LinkedIn</a>
+                        </p>
                         <!-- <i class="fa fa-linkedin w3-hover-opacity"></i> -->
 
                         <hr>
@@ -130,110 +135,128 @@
 
                 <div class="w3-container w3-card w3-white w3-margin-bottom">
                     <h2 class="w3-text-grey w3-padding-16">
-                        <i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+                        <i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience
+                    </h2>
                     <div class="w3-container">
                         <h5 class="w3-opacity">
                             <b>Member Technical Staff / Netapp India Pvt Ltd</b>
                         </h5>
                         <h6 class="w3-text-teal">
-                            <i class="fa fa-calendar fa-fw w3-margin-right"></i>Sept 2018 - 
+                            <i class="fa fa-calendar fa-fw w3-margin-right"></i>Sept 2018 -
                             <span class="w3-tag w3-teal w3-round">Current</span>
                         </h6>
                         <p>
-                            <ul>
-                                <li>BlueXP - Saas microservices platform for unified management of storage and data services
-                                    <ul>
-                                        <li>
-                                            Worked as backend developer for BlueXP connector team, focusing on typescript based services like installer, service manager, log handlers and static file server. Also worked on some services developed in golang and scala.
-                                        </li>
-                                        <li>
-                                            Enhanced BlueXP connectors by adding Podman support, ensuring compatibility with RHEL 8 and 9 environments
-                                        </li>
-                                        <li>
-                                            Conducted scale benchmarking for connector containers and vm. Developed python automation scripts to create scaled Ontap storage setups and monitor connectors using Cloud Insights
-                                        </li>
-                                        <li>
-                                            Created proof of concept for Connector alerts related to host and VM metrics using Prometheus and Alertmanager
-                                        </li>
-                                        <li>
-                                            Worked on new architecture proposals for deploying connectors using managed container services on various cloud providers
-                                        </li>
-                                    </ul>
-                                </li>
-                                
-                            </ul>
-                            <ul>
-                                <li>Active IQ Unified Manager -  On prem application to manage health and performance of ONTAP storage systems
-                                    <ul>
-                                        <li>
-                                            Full stack development (Angular + Java) : 
-                                            <ul>
-                                                <li>
-                                                    Developed the Data protection dashboard, providing a comprehensive view of data protection events and details for ONTAP Clusters 
-                                                </li>
-                                                <li>
-                                                    Implemented On Demand Backup , enabling instant creation of backups via mysql or netapp snapshot based backups through the UI
-                                                </li>
-                                                <li>
-                                                    Created the On Demand Support Bundle feature allowing users to generate and send a support bundle to technical support via UI
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            UI Development (Angular) :
-                                            <ul>
-                                                <li>
-                                                    Developed the Security Dashboard displaying security events, compliance status,  volume encryption, ransomware protection for Ontap clusters
-                                                </li>
-                                                <li>
-                                                    Implemented UI components to enable Mutual TLS based authentication between AIQUM and Ontap
-                                                </li>
-                                                <li>
-                                                    Created UI for bulk assignment of storage efficiency policy and performance service level for workloads
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            Implemented E2E UI Automation using protractor 
-                                        </li>
-                                        <li>
-                                            Worked on Angular performance/security upgrades and other third party library upgrades
-                                        </li>
-                                        <li>
-                                            Worked on ZAPI to REST conversion for interaction between AIQUM and Ontap
-                                        </li>
-                                        <li>
-                                            Implemented spring boot support for AIQUM 
-                                        </li>
-                                    </ul>
-                                </li>                                
-                            </ul>
-                            <ul>
-                                <li>
-                                    NWFJS - UI component framework used in various applications
-                                    <ul>
-                                        <li>
-                                            Worked closely with the UX team and other partner products for development of various reusable UI components and services. 
-                                        </li>
-                                        <li>
-                                            Implemented E2E UI Automation testing using protractor for Netapp Service Level Manager
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    OnCommand Workflow Automation- An application to automate storage management tasks
-                                    <ul>
-                                        <li>
-                                            Worked on the conversion of the WFA product from Flex(Flash) to Angular(HTML5). 
-                                        </li>
-                                        <li>
-                                            E2E Automation using protractor and mocha
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
+                        <ul>
+                            <li>BlueXP - Saas microservices platform for unified management of storage and data services
+                                <ul>
+                                    <li>
+                                        Worked as backend developer for BlueXP connector team, focusing on typescript
+                                        based services like installer, service manager, log handlers and static file
+                                        server. Also worked on some services developed in golang and scala.
+                                    </li>
+                                    <li>
+                                        Enhanced BlueXP connectors by adding Podman support, ensuring compatibility with
+                                        RHEL 8 and 9 environments
+                                    </li>
+                                    <li>
+                                        Conducted scale benchmarking for connector containers and vm. Developed python
+                                        automation scripts to create scaled Ontap storage setups and monitor connectors
+                                        using Cloud Insights
+                                    </li>
+                                    <li>
+                                        Created proof of concept for Connector alerts related to host and VM metrics
+                                        using Prometheus and Alertmanager
+                                    </li>
+                                    <li>
+                                        Worked on new architecture proposals for deploying connectors using managed
+                                        container services on various cloud providers
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                        <ul>
+                            <li>Active IQ Unified Manager - On prem application to manage health and performance of
+                                ONTAP storage systems
+                                <ul>
+                                    <li>
+                                        Full stack development (Angular + Java) :
+                                        <ul>
+                                            <li>
+                                                Developed the Data protection dashboard, providing a comprehensive view
+                                                of data protection events and details for ONTAP Clusters
+                                            </li>
+                                            <li>
+                                                Implemented On Demand Backup , enabling instant creation of backups via
+                                                mysql or netapp snapshot based backups through the UI
+                                            </li>
+                                            <li>
+                                                Created the On Demand Support Bundle feature allowing users to generate
+                                                and send a support bundle to technical support via UI
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        UI Development (Angular) :
+                                        <ul>
+                                            <li>
+                                                Developed the Security Dashboard displaying security events, compliance
+                                                status, volume encryption, ransomware protection for Ontap clusters
+                                            </li>
+                                            <li>
+                                                Implemented UI components to enable Mutual TLS based authentication
+                                                between AIQUM and Ontap
+                                            </li>
+                                            <li>
+                                                Created UI for bulk assignment of storage efficiency policy and
+                                                performance service level for workloads
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        Implemented E2E UI Automation using protractor
+                                    </li>
+                                    <li>
+                                        Worked on Angular performance/security upgrades and other third party library
+                                        upgrades
+                                    </li>
+                                    <li>
+                                        Worked on ZAPI to REST conversion for interaction between AIQUM and Ontap
+                                    </li>
+                                    <li>
+                                        Implemented spring boot support for AIQUM
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                NWFJS - UI component framework used in various applications
+                                <ul>
+                                    <li>
+                                        Worked closely with the UX team and other partner products for development of
+                                        various reusable UI components and services.
+                                    </li>
+                                    <li>
+                                        Implemented E2E UI Automation testing using protractor for Netapp Service Level
+                                        Manager
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                OnCommand Workflow Automation- An application to automate storage management tasks
+                                <ul>
+                                    <li>
+                                        Worked on the conversion of the WFA product from Flex(Flash) to Angular(HTML5).
+                                    </li>
+                                    <li>
+                                        E2E Automation using protractor and mocha
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
                         </p>
                         <hr>
                     </div>
@@ -245,18 +268,22 @@
                             <i class="fa fa-calendar fa-fw w3-margin-right"></i>Jul 2016 - Sept 2018
                         </h6>
                         <p>
-                            <ul>
-                                <li>Developed progressive web applications (PWA) in Angular 5 which are fast, reliable and engaging
-                                </li>
-                                <li>Implemented responsive web design and themeable components following material design guidelines
-                                </li>
-                                <li>Designed challenging UI - Leave calendar, Dynamic reactive forms, Employee timeline, Guided
-                                    tours for feature introduction</li>
-                                <li>Created rest APIs using Grails and PostgreSQL
-                                </li>
-                                <li>Facilitated easy data migration and deployment using scripts and tools developed in Python
-                                </li>
-                            </ul>
+                        <ul>
+                            <li>Developed progressive web applications (PWA) in Angular 5 which are fast, reliable and
+                                engaging
+                            </li>
+                            <li>Implemented responsive web design and themeable components following material design
+                                guidelines
+                            </li>
+                            <li>Designed challenging UI - Leave calendar, Dynamic reactive forms, Employee timeline,
+                                Guided
+                                tours for feature introduction</li>
+                            <li>Created rest APIs using Grails and PostgreSQL
+                            </li>
+                            <li>Facilitated easy data migration and deployment using scripts and tools developed in
+                                Python
+                            </li>
+                        </ul>
                         </p>
                         <hr>
                     </div>
@@ -265,11 +292,13 @@
                             <b>Intern / Mu Sigma Business Solutions</b>
                         </h5>
                         <h6 class="w3-text-teal">
-                            <i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2016 - May 2016</h6>
-                        <p>Developed a single page application, to manage cost price increase requests, for a leading Australian supermarket chain using AngularJs and Django.</p>
+                            <i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2016 - May 2016
+                        </h6>
+                        <p>Developed a single page application, to manage cost price increase requests, for a leading
+                            Australian supermarket chain using AngularJs and Django.</p>
                         <hr>
                     </div>
-                   
+
                 </div>
 
                 <!-- <div class="w3-container w3-card w3-white">
@@ -288,33 +317,44 @@
                 </div> -->
 
                 <div class="w3-container w3-card w3-white">
-                        <h2 class="w3-text-grey w3-padding-16">
-                                <i class="fa fa-download fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>
-                                Projects
-                        </h2>
-                     
-                        <div class="w3-row" style="margin-bottom:20px">
-                                <div class="w3-third reframe hover-scale">
-                                        <a href="https://skillersharan.github.io/Bird-Run/" target="_blank">
-                                  <img src="https://raw.githubusercontent.com/skillersharan/Bird-Run/master/Docs/2.png" style="width:100%"  alt="BirdRun">
-                                  </a>
+                    <h2 class="w3-text-grey w3-padding-16">
+                        <i class="fa fa-download fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>
+                        Projects
+                    </h2>
 
-                                </div>
-                            
-                             
-                                
-                                <div class="w3-third reframe hover-scale">
-                                        <a href="https://skillersharan.github.io/Android-3d-Map-Renderer/"  target="_blank">
-                                        <img src="https://raw.githubusercontent.com/skillersharan/Android-3d-Map-Renderer/master/docs/assets/images/1%20(1).png" style="width:100%"  alt="A boy surrounded by beautiful nature">
-                                        </a>
-                                </div>
-
-                                <div class="w3-third hover-scale" style="width:45%;">
-                                    <a href="https://skillersharan.github.io/RunHome/"  target="_blank">
-                                        <img src="https://raw.githubusercontent.com/skillersharan/RunHome/master/Docs/3.png" style="width:100%"  alt="A boy surrounded by beautiful nature">
-                                    </a>
-                                </div>
+                    <div class="w3-row" style="margin-bottom:20px">
+                        <div class="w3-third reframe hover-scale">
+                            <a href="https://sharan-preeti.web.app/" target="_blank">
+                                <img src="images/wedding.png"
+                                    style="width:100%" alt="Wedding Invite" title="Wedding Invite">
+                            </a>
                         </div>
+                        <div class="w3-third reframe hover-scale">
+                            <a href="https://github.com/skillersharan/Character-Generator" target="_blank">
+                                <img src="images/characters.png"
+                                    style="width:100%" alt="NFT Generator" title="NFT Generator">
+                            </a>
+                        </div>
+                        <div class="w3-third reframe hover-scale">
+                            <a href="https://skillersharan.github.io/Bird-Run/" target="_blank">
+                                <img src="https://raw.githubusercontent.com/skillersharan/Bird-Run/master/Docs/2.png"
+                                    style="width:100%" alt="BirdRun" title="BirdRun">
+                            </a>
+                        </div>
+                        <div class="w3-third reframe hover-scale">
+                            <a href="https://skillersharan.github.io/Android-3d-Map-Renderer/" target="_blank">
+                                <img src="https://raw.githubusercontent.com/skillersharan/Android-3d-Map-Renderer/master/docs/assets/images/1%20(1).png"
+                                    style="width:100%" alt="Android Map Renderer" title="Android Map Renderer" >
+                            </a>
+                        </div>
+
+                        <div class="w3-third hover-scale" style="width:45%;">
+                            <a href="https://skillersharan.github.io/RunHome/" target="_blank">
+                                <img src="https://raw.githubusercontent.com/skillersharan/RunHome/master/Docs/3.png"
+                                    style="width:100%" alt="RunHome"  title="RunHome">
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- End Right Column -->
@@ -328,7 +368,7 @@
 
     <footer class="w3-container w3-teal w3-center w3-margin-top">
         <p>&#34; Life would be so much easier if you had it's source code &#34;</p>
-        
+
     </footer>
 
 </body>
